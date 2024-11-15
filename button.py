@@ -15,7 +15,7 @@ def pressed():
 def released():
     #Send the text message
 
-    number = '0706881946'
+    number = '070XXXXXXXX'
     text = 'Infodisken!' 
         
     ser = serial.Serial('/dev/ttyUSB0', timeout=5)
